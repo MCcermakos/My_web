@@ -28,6 +28,8 @@ body{
 .about-me{
     background-image: url(obrazky/bg.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 50vh;
     padding: 10%;
     display: flex;
