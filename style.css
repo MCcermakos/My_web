@@ -26,6 +26,7 @@ body{
     padding-top: 20px;
 }
 .about-me{
+    background-image: url(obrazky/bg.jpg);
     height: 50vh;
     padding: 10%;
     display: flex;
