@@ -14,22 +14,23 @@ body{
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background-image: url(obrazky/bg2.jpg);
+    background-image: url(obrazky/bg4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .intro h1{
     font-size: 60px;
     font-weight: 900;
-    color: white;
-    mix-blend-mode: difference;
+    color: black;
 }
 .intro h2{
     padding-top: 20px;
 }
 .about-me{
-    background-image: url(obrazky/bg.jpg);
+    background-image: url(obrazky/bg4.jpg);
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
     height: 50vh;
     padding: 10%;
     display: flex;
@@ -107,8 +108,10 @@ width: 50%;
 }
 .accomplishments{
     padding: 5%;
-    background-image: url(obrazky/bg.jpg);
+    background-image: url(obrazky/bg4.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .accomplishments h2{
@@ -121,8 +124,10 @@ width: 50%;
 }
 .accomplishments--diff{
     padding: 5%;
-    background-image: url(obrazky/bg2.jpg);
+    background-image: url(obrazky/bg4.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .accomplishments--diff h2{
     width: 100%;
@@ -131,8 +136,7 @@ width: 50%;
     margin-bottom: 5%;
     border-bottom:5px solid rgb(72, 65, 204) ;
     padding: 7.5px;
-    color: white;
-    mix-blend-mode: difference;
+    color: black;
 }
 .accomplishments--diff h3{
     font-size: 30px;
@@ -140,15 +144,18 @@ width: 50%;
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     margin-left: 40%;
     padding: 6px;
-    color: white;
-    mix-blend-mode: difference;
+    color: black;
 }
 .accomplishments--diff h3:hover{
     background-color: rgb(72, 65, 204) ;
     transform: scale(1.1);
+    transition: 0.5s;
+}
+img{
+    height: 20vh;
 }
 .projekty{
     display: flex;
@@ -218,14 +225,19 @@ width: 50%;
 }
 .footer{
     position: relative;
-    height: 20vh;
-    background-image: url(obrazky/bg2.jpg);
+    height: 35vh;
+    background-image: url(obrazky/bg4.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
 }
 .footer a{
+    margin-top: 0;
     width: 90px;
     text-decoration: none;
     margin: 0 1.5%;
@@ -233,7 +245,7 @@ width: 50%;
 }
 .footer a:hover{
     background-color: rgb(72, 65, 204) ;
-    transition: 0.3s;
+    transition: 1s;
     box-shadow:  0px 0px 15px rgb(72, 65, 204) ;
 }
 .footer svg{
@@ -242,4 +254,14 @@ width: 50%;
 }
 .footer svg:hover path{
     fill: white;
+}
+.footer h1{
+    color: black;
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0;
+    border-bottom:5px solid rgb(72, 65, 204) ;
+    padding: 7.5px;
+
 }
